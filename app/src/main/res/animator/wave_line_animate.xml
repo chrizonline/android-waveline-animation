@@ -1,0 +1,11 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@android:interpolator/linear"
+        android:propertyName="pathData"
+        android:duration="2000"
+        android:valueFrom="M 0 0 h 50 v 800 h -50 z"
+        android:valueTo="M 166 0 h 50 v 800 h -50 z"
+        android:valueType="pathType"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"/>
+</set>

@@ -1,0 +1,8 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/wave_line_vector"
+    tools:ignore="MissingDefaultResource">
+    <target
+        android:name="clipPath"
+        android:animation="@animator/wave_line_animate" />
+</animated-vector>
